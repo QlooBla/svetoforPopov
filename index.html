@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Светофор</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="intersection">
+      <div class="road" id="roadA">
+         <h2>Дорога А</h2>
+         <div class="traffic-light" id="lightA">
+            <div class="light red"></div>
+            <div class="light yellow"></div>
+            <div class="light green"></div>
+         </div>
+         <div class="counter">
+            <button>+1</button>
+            <span id="counterA">0</span>
+            <button>-1</button>
+         </div>
+      </div>
+      <div class="timer-container">
+         <div class="timer" id="timer">00:00</div>
+         <button id="startButton">Старт</button>
+      </div>
+      <div class="road" id="roadB">
+         <h2>Дорога Б</h2>
+         <div class="traffic-light" id="lightB">
+            <div class="light red"></div>
+            <div class="light yellow"></div>
+            <div class="light green"></div>
+         </div>
+         <div class="counter">
+            <button>+1</button>
+            <span id="counterB">0</span>
+            <button>-1</button>
+         </div>
+      </div>
+      <script src="js/app.js"></script>
+</body>
+
+</html>
